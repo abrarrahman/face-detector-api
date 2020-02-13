@@ -13,10 +13,8 @@ const image = require('./controllers/image');
 const pg = knex({
     client: 'pg',
     connection: {
-      host : '127.0.0.1',
-      user : 'abrar',
-      password : 'webdev',
-      database : 'face-detector'
+      host : process.env.DATABASE_URL,
+      ssl : true
     }
   });
 
