@@ -4,7 +4,7 @@
   "description": "this app uses Clarifai API to detect and mark a face in an image",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "npx nodemon server.js"
   },
   "engines": {
     "node": "8.10.0",
