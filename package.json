@@ -1,10 +1,13 @@
 {
   "name": "face-detector-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "this app uses Clarifai API to detect and mark a face in an image",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"
+  },
+  "engines": {
+    "node": "8.10.0"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +23,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrarrahman/face-detector-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abrarrahman/face-detector-api/issues"
+  },
+  "homepage": "https://github.com/abrarrahman/face-detector-api#readme"
 }
