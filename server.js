@@ -36,4 +36,4 @@ app.get('/profile/:id', profile.getProfile(pg));
 app.put('/image', image.handleEntry(pg));
 app.post('/imageurl', image.handleClarifaiCall);
 
-app.listen(3001, ()=> console.log(`server started on port 3001`))
+app.listen(process.env.PORT || 3001, ()=> console.log(`server started on port ${process.env.PORT}`))
